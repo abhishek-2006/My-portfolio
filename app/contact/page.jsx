@@ -55,7 +55,7 @@ export default function ContactPage() {
             <div className="flex gap-4">
               <a href="https://github.com/abhishek-2006" target="_black" className="px-4 py-2 bg-white/10 rounded-xl hover:bg-white/20 transition">GitHub</a>
               <a href="mailto:shahabhishek051@gmail.com" target="_blank" className="px-4 py-2 bg-white/10 rounded-xl hover:bg-white/20 transition">E-Mail</a>
-              <a href="https://abhishekshah_112" target="_blank" className="px-4 py-2 bg-white/10 rounded-xl hover:bg-white/20 transition">Instagram</a>
+              <a href="https://instagram.com/abhishekshah_112" target="_blank" className="px-4 py-2 bg-white/10 rounded-xl hover:bg-white/20 transition">Instagram</a>
             </div>
           </div>
         </div>
