@@ -14,7 +14,7 @@ export async function GET() {
     const projects = await Promise.all(
       repos.map(async (repo) => {
         const langRes = await fetch(repo.languages_url, {
-          headers: { "User-Agent": "portfolio-app" },
+          headers: { "User-Agent": "portfolio" },
         });
 
         const languages = await langRes.json();
@@ -25,14 +25,13 @@ export async function GET() {
           description: repo.description,
           url: repo.html_url,
           liveUrl: repo.homepage || null,
-          tech: langs.length ? langs : repo.topics || [],
+          tech: langs.length ? langs : [],
         };
       })
     );
 
     return Response.json(projects);
   } catch (err) {
-    console.error("GitHub Fetch Error:", err);
     return Response.json({ error: "Failed to load repos" }, { status: 500 });
   }
 }
