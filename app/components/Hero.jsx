@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { motion, useCycle } from "framer-motion";
-import { Github, Linkedin, Instagram} from "lucide-react";
+import { Github, Linkedin} from "lucide-react";
 import { FaXTwitter as Twitter } from "react-icons/fa6";
 import Lottie from "lottie-react";
 import {ReactTyped} from "react-typed";
@@ -14,8 +14,6 @@ import {ReactTyped} from "react-typed";
 */
 const PROFILE_SRC = "/profile.jpg";
 
-// small Lottie placeholder JSON can be replaced by your own lottie file
-// If you add a lottie JSON in /public/lottie/dev.json, use: import devAnim from "/lottie/dev.json";
 const DemoLottieUrl =
   "https://assets10.lottiefiles.com/packages/lf20_jtbfg2nb.json"; // subtle dev animation
 
@@ -183,10 +181,6 @@ export default function Hero() {
           <div className="flex gap-4 items-center">
             <a className="rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-black shadow-md hover:bg-cyan-400 transition" href="/projects">
               View Projects
-            </a>
-
-            <a className="rounded-lg border border-white/10 px-5 py-3 text-gray-200 hover:border-white/30 transition" href="/resume.zip">
-              Download Zip
             </a>
 
             <div className="ml-auto hidden md:flex gap-3 items-center">
