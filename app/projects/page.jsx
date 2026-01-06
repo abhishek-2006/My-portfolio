@@ -156,7 +156,7 @@ export default function App() {
                   </h2>
 
                   <p className="text-slate-400 text-sm leading-relaxed mb-6 line-clamp-3 font-medium">
-                    {project.description || "No description provided. This project showcases advanced architectural patterns and clean code principles."}
+                    {project.description || "No description provided."}
                   </p>
 
                   {/* Tech Stack */}
