@@ -55,7 +55,7 @@ export default function App() {
         setProjects([
           { name: "TicTacToe", description: "Premium Android edition with adaptive AI.", tech: ["Flutter", "Dart", "Android"], url: "#", liveUrl: "/tictactoe", isGame: true, logo: "/tictactoe-logo.png" },
           { name: "Hotel Management System", description: "Professional-grade administrative portal.", tech: ["PHP", "MySQL", "Bootstrap"], url: "#", liveUrl: "#" },
-          { name: "Currency Converter", description: "Real-time exchange rates via API.", tech: ["JavaScript", "REST API", "Tailwind"], url: "#", liveUrl: "#" }
+          { name: "Currency Converter", description: "Real-time exchange rates via API.", tech: ["JavaScript", "REST API", "Tailwind"], url: "#", liveUrl: "https://abhishek-2006.github.io/currency-converter" }
         ]);
       }
     }
